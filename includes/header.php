@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -41,7 +42,7 @@
         <!-- Yahan sy Sidebar start hai  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <a href="#"><img src="./assets/img/MHARVR_LOGO.png" class="logo"><h2 class="titlelogo">MHARVR</h2></a>
+                <a href="#"><img src="./assets/img/logo.png" class="logo"><h2 class="titlelogo">MHARVR</h2></a>
             </div>
 
             <!-- Mharvrpatientdashboard -->
@@ -99,7 +100,7 @@
                     <span></span>
                 </button>
     <a class="navbar-brand" href="#">
-        <img src="./assets/img/MHARVR_LOGO.png" width="50" height="50" class="d-inline-block align-top" alt="">Mental Healthcare Application using AR and VR Technology
+        <img src="./assets/img/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">Mental Healthcare Application using AR and VR Technology
     </a>
 
     <div class="user">
