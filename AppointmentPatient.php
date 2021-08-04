@@ -1,6 +1,7 @@
-<?php include_once('includes/header.php');
-    include_once('includes/connection.php');
-
+<?php 
+include_once('includes/header.php');
+include_once('includes/connection.php');
+ 
     if(isset($_POST['AppointmentBtn']))
     {
         $patientname        = (isset($_POST['patientname']))?$_POST['patientname']:"-";
@@ -18,13 +19,14 @@
 
         if (mysqli_query($conn, $InsertQuery)) 
         {
-            echo 'New record created successfully';
-          // header("Location: http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']."?msg=New record created successfully");
-        } else {
-          echo "Error: " . $InsertQuery . "<br>" . mysqli_error($conn);
+            echo("<script>location.href = 'AppointmentDetails.php?msg=New Appointment Added successfully';</script>");
+        } else 
+        {
+            echo("<script>location.href = 'AppointmentDetails.php?msg=Error: ".$InsertQuery."<br>" . mysqli_error($conn)."';</script>");
         }
-    
     }
+
+    
 ?>
 
 
@@ -38,12 +40,6 @@
             <div class="patienttable">
                 <div class="appointinfo">Appointment Information</div><br><br>
             <div class="line"></div>
-            <?php
-                if(isset($_GET['msg']))
-                {
-                    echo $_GET['msg'];
-                }
-            ?>
                
 
  <form class="form-container" action="AppointmentPatient.php" method="POST"  onSubmit="return validation()" class="bg-light" style=" margin-top:25px">

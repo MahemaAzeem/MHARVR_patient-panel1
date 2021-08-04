@@ -66,7 +66,7 @@
                 </li>
 
                   <li> <!--Ye wala code kaam kar raha hai for linking.USE THIS CODE ONLY-->
-                    <a href="AppointmentPatient.php">
+                    <a href="AppointmentDetails.php">
                     <span class="icon"><i class="fa fa-calendar" aria-hidden="true"></i></i></span>
                     <span class="title">Patient Appointment</span></a>
                 </li>
