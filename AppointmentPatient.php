@@ -43,7 +43,7 @@ include_once('includes/connection.php');
                
 
  <form class="form-container" action="AppointmentPatient.php" method="POST"  onSubmit="return validation()" class="bg-light" style=" margin-top:25px">
-                    <form action="action_page.php">
+                  
 
                      <label for="patientname" class="coachform form-row form-group col-md-6"><b>Patient Name</b></label>
                      <input type="text" id="patientname" name="patientname" placeholder="your  name.." class="form-control" required>
